@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "LDRefresh", "LDRefresh/**/*.{h,m}"
-  s.exclude_files = "LDRefresh/Exclude"
+  s.exclude_files = "LDRefresh/Exclude", "LDRefresh/AppDelegate.{h,m}", "LDRefresh/main.{h,m}", "LDRefresh/ViewController.{h,m}", "LDRefresh/DemoController/TuniuDemo/ViewController.{h,m}", "LDRefresh/**/ViewController.{h,m}"
 
   # s.public_header_files = "LDRefresh/**/*.h"
 
