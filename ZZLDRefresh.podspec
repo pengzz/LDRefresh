@@ -24,10 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #s.description  = <<-DESC
-                   DESC
+  #s.description  = <<-DESC DESC
 
-  s.description   = "It is my repo which some editing from LDRefresh.”
+  s.description   = "It is my repo which some editing from LDRefresh."
 
   s.homepage     = "https://github.com/pengzz/LDRefresh"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -82,7 +81,7 @@ Pod::Spec.new do |s|
   #
 
   #s.source       = { :git => "https://github.com/pengzz/LDRefresh.git", :commit => "0567e83dcf238578738bc63e53ab28cbb1710ec4" }
-  s.source       = { :git => "https://github.com/pengzz/LDRefresh.git", :tag => “0.0.2” }
+  s.source       = { :git => "https://github.com/pengzz/LDRefresh.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
